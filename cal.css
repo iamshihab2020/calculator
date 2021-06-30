@@ -1,0 +1,75 @@
+/* ----------------------------------
+HEad and type box 
+-------------------------------------*/
+h1{
+    text-align: center;
+}
+.whole{
+    width: 221px;
+    margin: 0 auto;
+    text-align: center;
+}
+.whole:hover{
+    box-shadow: 10px 10px 50px black;
+    transition: 0.5s;
+}
+.whole #in{
+    width: 221px;
+    height: 70px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: end;
+    border: 0.2px black solid ;
+
+}
+
+/* ----------------------------------
+button 
+-------------------------------------*/
+.button{
+    display: flex;
+}
+.c input{
+    height: 43px;
+    width: 55px;
+    font-weight: bold;
+    background-color: #3E4149;
+    color: white;
+    border: none;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+.c input:hover{
+    background-color: #FFC8C8 ;
+    color: #3E4149;
+}
+
+
+.c2 input{
+    height: 43px;
+    width: 55px;
+    font-weight: bold;
+    background-color: #FF9999;
+    color: white;
+    border: none;
+    margin-bottom: 2px;
+}
+.c2 input:hover{
+    background-color: #FFC107 ;
+    color: #3E4149;
+}
+
+.c3 input{
+    height: 43px;
+    width: 55px;
+    font-weight: bold;
+    background-color: #FFC107;
+    color: white;
+    border: none;
+    margin-bottom: 2px;
+}
+.c3 input:hover{
+    background-color: #3E4149   ;
+    color: #FF9999;
+}
+
